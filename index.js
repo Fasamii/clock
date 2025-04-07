@@ -9,9 +9,9 @@ function clockInit(secID,minID,hrsID){
         min.textContent = date.getMinutes().toString().padStart(2,'0');
         sec.textContent = date.getSeconds().toString().padStart(2,'0');
 
-			document.title = date.getHours().toString().padStart(2,'0') + ":"
-			+ date.getMinutes().toString().padStart(2,'0') + ":"
-			+ date.getSeconds().toString().padStart(2, '0')
+		document.title = date.getHours().toString().padStart(2,'0') + ":"
+		+ date.getMinutes().toString().padStart(2,'0') + ":"
+		+ date.getSeconds().toString().padStart(2, '0')
     }
     function start(){
         setTime();
