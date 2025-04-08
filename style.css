@@ -91,6 +91,7 @@ main {
     border: 1px solid var(--FONT-COLOR);
     box-shadow: var(--FONT-COLOR) inset 0px 0px 2px 0px, var(--SHADOW-COLOR) 0px 0px 8px 0px;
     transition: 100ms;
+	user-select: none; /* for disabling cursor pointer on clock values */
 }
 .clock>li {                 
     border-right: 1px solid var(--BACKGROUND-COLOR);
